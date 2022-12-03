@@ -8,7 +8,7 @@ const OneCategory = ({image}) => {
             <div className="w-full h-full flex">
                 <img src={process.env.PUBLIC_URL + image} alt="imageAbout1" className="w-full h-full object-cover object-center rounded-lg"/>
             </div>
-            <div className="absolute w-full h-full flex flex-col justify-center gap-4 modal-category">
+            <div className="absolute w-full h-full flex flex-col justify-center gap-4 modal-category bg-black bg-opacity-50">
                 <div className="w-full flex justify-center">
                     <button className="bg-white px-3 py-2 text-primary-color rounded-md">Save 30%</button>
                 </div>

@@ -1,7 +1,9 @@
 import React from "react";
 import AboutUs from "./aboutUs";
+import Clients from "./clients";
 import FoodCategory from "./foodCategory";
 import Header from "./header";
+import WhyChooseUs from "./whyChooseUs";
 
 const IndexHome = () => {
 
@@ -15,6 +17,12 @@ const IndexHome = () => {
 
             {/* Food category */}
             <FoodCategory />
+
+            {/* Potential Choose */}
+            <WhyChooseUs />
+
+            {/* Clients part */}
+            <Clients />
         </div>
     )
 }
