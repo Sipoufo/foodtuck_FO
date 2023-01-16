@@ -1,5 +1,6 @@
 import React from "react";
 import AboutUs from "./aboutUs";
+import ChoosePick from "./choosePick";
 import Clients from "./clients";
 import FoodCategory from "./foodCategory";
 import Header from "./header";
@@ -23,6 +24,9 @@ const IndexHome = () => {
 
             {/* Clients part */}
             <Clients />
+
+            {/* Choose and Pick */}
+            <ChoosePick />
         </div>
     )
 }

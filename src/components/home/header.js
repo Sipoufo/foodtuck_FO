@@ -10,9 +10,9 @@ const Header = () => {
             <img src={process.env.PUBLIC_URL + "/images/image3.png"} alt="bgTitle" className="object-cover object-center w-full h-full" />
             <div className="absolute w-full h-full bg-black bg-opacity-90"></div>
             <div className="absolute flex w-full h-full justify-center">
-                <div className="flex w-full max-w-screen-lg px-2 p-4">
+                <div className="flex w-full max-w-screen-lg px-10 py-4">
                     <div className="flex w-full justify-between gap-4">
-                        <div className="w-4/12 flex flex-row gap-6 h-8/12 items-center">
+                        <div className="w-fit flex flex-row gap-6 h-8/12 items-center">
                             <div className="flex flex-col h-full justify-between items-center gap-4">
                                 <div className="border-l border-l-white h-2/6"></div>
                                 <div className="h-2/6 flex flex-col justify-between">
@@ -31,8 +31,8 @@ const Header = () => {
                                 </div>
                             </div>
                         </div>
-                        <div className="w-6/12 flex">
-                            <img src={process.env.PUBLIC_URL + "/images/image.png"} alt="bgTitle" className="object-container" />
+                        <div className="w-6/12 hidden md:flex">
+                            <img src={process.env.PUBLIC_URL + "/images/image.png"} alt="bgTitle" className="w-full h-full object-contain" />
                         </div>
                     </div>
                 </div>

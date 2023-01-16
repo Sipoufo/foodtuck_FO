@@ -5,13 +5,13 @@ import React from "react";
 const WhyChooseUs = () => {
     return(
         <div className="flex w-full justify-center text-white bg-black py-10 text-xs">
-            <div className="flex flex-row max-w-screen-xl w-full justify-center items-center">
-                <div className="flex w-6/12">
+            <div className="flex flex-row max-w-screen-xl w-full justify-center items-center px-10">
+                <div className="hidden md:flex w-10/12">
 
                 </div>
-                <div className="flex w-5/12">
-                    <div className="flex flex-col gap-4 w-full">
-                        <p className="w-full text-3xl text-primary-color font-great-vibes">
+                <div className="flex w-fit">
+                    <div className="flex flex-col gap-4 w-full items-center">
+                        <p className="w-full text-2xl md:text-3xl text-primary-color font-great-vibes">
                             Why Choose us
                         </p>
                         <p className="w-full text-4xl font-extrabold">
@@ -40,10 +40,10 @@ const WhyChooseUs = () => {
                                 <p className="ml-2">Dinner</p>
                             </div>
                         </div>
-                        <div className="w-full flex">
+                        <div className="w-full flex justify-center">
                             <div className="w-8/12 flex flex-row bg-white text-black rounded-md overflow-hidden">
                                 <div className="w-4 bg-primary-color"></div>
-                                <div className="flex grow px-10 py-3 justify-between">
+                                <div className="flex grow px-2 py-3 justify-between">
                                     <p className="text-3xl text-primary-color font-extrabold">
                                         30+
                                     </p>

@@ -79,8 +79,8 @@ const IndexFooter = () => {
                     </div>
                 </div>
             </div>
-            <div className="mt-10 flex flex-col w-full gap-10 bg-gray-600 justify-center items-center">
-                <div className="max-w-screen-xl flex flex-row w-full justify-between py-4">
+            <div className="mt-10 flex w-full gap-10 bg-primary-color justify-center items-center">
+                <div className="max-w-screen-xl flex flex-col md:flex-row w-full justify-between py-4 gap-4 px-10">
                     <p>Copyright © 2022 by Ayeman. All Rights Reserved.</p>
                     <div className="flex flex-row gap-2">
                         <div className="w-6 h-6 bg-white text-black flex justify-center items-center">

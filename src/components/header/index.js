@@ -6,7 +6,7 @@ import { faBagShopping, faBars, faMagnifyingGlass, faUser } from '@fortawesome/f
 const IndexHeader = ({setModalMenu}) => {
     return(
         <div className="flex flex-col w-full bg-black text-white text-sm">
-            <div className="flex w-full justify-center py-4 px-5">
+            <div className="flex w-full justify-center py-4 px-10">
                 <div className="flex flex-row w-full h-10 justify-between items-center max-w-screen-xl gap-6">
                     <div className="w-24 h-full flex">
                         <img src={process.env.PUBLIC_URL + "/images/logo/Foodtuck.png"} alt="logo" className="object-contain" />
