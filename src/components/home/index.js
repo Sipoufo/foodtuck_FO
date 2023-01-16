@@ -1,5 +1,6 @@
 import React from "react";
 import AboutUs from "./aboutUs";
+import Chefs from "./chefs";
 import ChoosePick from "./choosePick";
 import Clients from "./clients";
 import FoodCategory from "./foodCategory";
@@ -27,6 +28,9 @@ const IndexHome = () => {
 
             {/* Choose and Pick */}
             <ChoosePick />
+
+            {/* Presentation of some chefs */}
+            <Chefs />
         </div>
     )
 }

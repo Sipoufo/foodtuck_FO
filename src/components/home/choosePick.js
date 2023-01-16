@@ -4,7 +4,7 @@ import { Outlet, NavLink } from "react-router-dom";
 const ChoosePick = () => {
     return(
         <div className="flex w-full justify-center text-white bg-black py-10">
-            <div className="flex flex-col max-w-screen-xl w-full justify-center items-center gap-4">
+            <div className="flex flex-col max-w-screen-xl w-full justify-center items-center gap-4 px-10">
                 <p className="w-full text-center text-2xl md:text-3xl text-primary-color font-great-vibes">
                     Choose & pick
                 </p>
