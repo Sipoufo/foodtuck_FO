@@ -13,32 +13,32 @@ const ChoosePick = () => {
                 </p>
                 <ul className="flex flex-row gap-8 w-full overflow-hidden md:overflow-x-auto">
                     <li className="w-1/6 flex justify-start items-center">
-                        <NavLink to="/choose/freakFast" className={isActive => "font-semibold" + (!isActive ? "text-primary-color" : "") }>
+                        <NavLink to="/" className={isActive => "font-semibold " + (isActive ? "text-primary-color" : "") }>
                             BreakFast
                         </NavLink>
                     </li>
                     <li className="w-1/6 flex justify-start items-center">
-                        <NavLink to="/choose/freakFast" className={isActive => "font-semibold" + (!isActive ? "text-primary-color" : "") }>
+                        <NavLink to="/choose/freakFast" className={isActive => "font-semibold" + (isActive ? "text-primary-color" : "") }>
                             Lunch
                         </NavLink>
                     </li>
                     <li className="w-1/6 flex justify-start items-center">
-                        <NavLink to="/choose/freakFast" className={isActive => "font-semibold" + (!isActive ? "text-primary-color" : "") }>
+                        <NavLink to="/choose/freakFast" className={isActive => "font-semibold" + (isActive ? "text-primary-color" : "") }>
                             Diner
                         </NavLink>
                     </li>
                     <li className="w-1/6 flex justify-start items-center">
-                        <NavLink to="/choose/freakFast" className={isActive => "font-semibold" + (!isActive ? "text-primary-color" : "") }>
+                        <NavLink to="/choose/freakFast" className={isActive => "font-semibold" + (isActive ? "text-primary-color" : "") }>
                             Dessert
                         </NavLink>
                     </li>
                     <li className="w-1/6 flex justify-start items-center">
-                        <NavLink to="/choose/freakFast" className={isActive => "font-semibold" + (!isActive ? "text-primary-color" : "") }>
+                        <NavLink to="/choose/freakFast" className={isActive => "font-semibold" + (isActive ? "text-primary-color" : "") }>
                             Drink
                         </NavLink>
                     </li>
                     <li className="w-1/6 flex justify-start items-center">
-                        <NavLink to="/choose/freakFast" className={isActive => "font-semibold" + (!isActive ? "text-primary-color" : "") }>
+                        <NavLink to="/choose/freakFast" className={isActive => "font-semibold" + (isActive ? "text-primary-color" : "") }>
                             Snack
                         </NavLink>
                     </li>
