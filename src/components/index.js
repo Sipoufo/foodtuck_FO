@@ -8,7 +8,7 @@ import IndexFooter from "./footer";
 import IndexHeader from "./header";
 
 const Index = () => {
-    const [modalMenu, setModalMenu] = useState(false) 
+    const [modalMenu, setModalMenu] = useState(false);
 
     return(
         <div className={`${modalMenu?"overflow-hidden": "overflow-auto"} relative w-full h-full flex flex-col justify-between`}>
